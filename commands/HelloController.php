@@ -19,18 +19,10 @@ use yii\console\Controller;
  */
 class HelloController extends Controller
 {
-    public $message;
-
-    public function options()
-    {
-        return ['message'];
-    }
-
-    public function optionAliases()
-    {
-        return ['m' => 'message'];
-    }
-
+    /**
+     * This command echoes what you have entered as the message.
+     * @param string $message the message to be echoed.
+     */
     public function actionIndex($message = 'hello world')
     {
         echo $message . "\n";

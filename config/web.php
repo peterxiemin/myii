@@ -3,8 +3,7 @@
 $params = require(__DIR__ . '/params.php');
 
 $config = [
-    'defaultRoute' => 'env',
-    'id' => 'sand',
+    'id' => 'myii',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'modules' => [
