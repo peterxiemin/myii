@@ -2,6 +2,7 @@
 
 namespace app\modules\sandagent\controllers;
 
+use app\library\constant\ErrorInfo;
 use yii\web\Controller;
 
 /**
@@ -15,6 +16,6 @@ class IndexController extends Controller
      */
     public function actionIndex()
     {
-	echo json_encode(array('errno'=>0, 'data'=>'success'));
+        echo ErrorInfo::ERR_CONSOLE_SANDAGENT_DIR_FAILED;
     }
 }

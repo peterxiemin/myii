@@ -6987,3 +6987,2329 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1471390555.205
     'REQUEST_TIME' => 1471390555
 ]
+2016-08-17 01:49:25 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:25 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60386'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391365.919
+    'REQUEST_TIME' => 1471391365
+]
+2016-08-17 01:49:26 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:26 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60387'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391366.865
+    'REQUEST_TIME' => 1471391366
+]
+2016-08-17 01:49:27 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:27 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60390'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391367.311
+    'REQUEST_TIME' => 1471391367
+]
+2016-08-17 01:49:27 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:27 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60387'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391367.557
+    'REQUEST_TIME' => 1471391367
+]
+2016-08-17 01:49:27 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:27 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60389'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391367.767
+    'REQUEST_TIME' => 1471391367
+]
+2016-08-17 01:49:28 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:27 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60386'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391367.986
+    'REQUEST_TIME' => 1471391367
+]
+2016-08-17 01:49:28 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:28 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60390'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391368.193
+    'REQUEST_TIME' => 1471391368
+]
+2016-08-17 01:49:28 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:28 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60389'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391368.411
+    'REQUEST_TIME' => 1471391368
+]
+2016-08-17 01:49:28 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:28 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60386'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391368.624
+    'REQUEST_TIME' => 1471391368
+]
+2016-08-17 01:49:28 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:28 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60387'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391368.835
+    'REQUEST_TIME' => 1471391368
+]
+2016-08-17 01:49:29 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:29 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60388'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391369.045
+    'REQUEST_TIME' => 1471391369
+]
+2016-08-17 01:49:29 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:29 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60389'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391369.247
+    'REQUEST_TIME' => 1471391369
+]
+2016-08-17 01:49:29 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:29 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60389'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391369.452
+    'REQUEST_TIME' => 1471391369
+]
+2016-08-17 01:49:29 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:29 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60388'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391369.646
+    'REQUEST_TIME' => 1471391369
+]
+2016-08-17 01:49:29 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:29 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60389'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391369.87
+    'REQUEST_TIME' => 1471391369
+]
+2016-08-17 01:49:30 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:30 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60388'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391370.058
+    'REQUEST_TIME' => 1471391370
+]
+2016-08-17 01:49:30 [::1][-][une6rchk81s6b4qpna7sck8ig0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sandaget/index".' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('sandaget/index', Array)
+#1 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\myii\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 E:\xampp\htdocs\myii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\myii\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-08-17 01:49:30 [::1][-][une6rchk81s6b4qpna7sck8ig0][info][application] $_GET = [
+    'r' => 'sandaget/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fivuyix'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60387'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandaget/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandaget/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391370.295
+    'REQUEST_TIME' => 1471391370
+]
+2016-08-17 01:50:53 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\library\myconst\ErrorInfo' not found' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:50:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60396'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391453.423
+    'REQUEST_TIME' => 1471391453
+]
+2016-08-17 01:50:54 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\library\myconst\ErrorInfo' not found' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:50:54 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60397'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391454.245
+    'REQUEST_TIME' => 1471391454
+]
+2016-08-17 01:50:54 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\library\myconst\ErrorInfo' not found' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:50:54 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60398'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391454.629
+    'REQUEST_TIME' => 1471391454
+]
+2016-08-17 01:50:54 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\library\myconst\ErrorInfo' not found' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:50:54 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60399'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391454.848
+    'REQUEST_TIME' => 1471391454
+]
+2016-08-17 01:50:55 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\library\myconst\ErrorInfo' not found' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:50:55 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60400'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391455.021
+    'REQUEST_TIME' => 1471391455
+]
+2016-08-17 01:50:55 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\library\myconst\ErrorInfo' not found' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:50:55 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60401'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391455.188
+    'REQUEST_TIME' => 1471391455
+]
+2016-08-17 01:51:29 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:29 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60404'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391489.333
+    'REQUEST_TIME' => 1471391489
+]
+2016-08-17 01:51:29 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:29 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391489.933
+    'REQUEST_TIME' => 1471391489
+]
+2016-08-17 01:51:30 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60406'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391490.117
+    'REQUEST_TIME' => 1471391490
+]
+2016-08-17 01:51:30 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60407'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391490.301
+    'REQUEST_TIME' => 1471391490
+]
+2016-08-17 01:51:30 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60408'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391490.461
+    'REQUEST_TIME' => 1471391490
+]
+2016-08-17 01:51:30 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60409'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391490.645
+    'REQUEST_TIME' => 1471391490
+]
+2016-08-17 01:51:30 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60410'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391490.821
+    'REQUEST_TIME' => 1471391490
+]
+2016-08-17 01:51:31 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60411'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391490.996
+    'REQUEST_TIME' => 1471391490
+]
+2016-08-17 01:51:31 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60412'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391491.17
+    'REQUEST_TIME' => 1471391491
+]
+2016-08-17 01:51:31 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60413'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391491.349
+    'REQUEST_TIME' => 1471391491
+]
+2016-08-17 01:51:31 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60414'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391491.533
+    'REQUEST_TIME' => 1471391491
+]
+2016-08-17 01:51:31 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60415'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391491.725
+    'REQUEST_TIME' => 1471391491
+]
+2016-08-17 01:51:31 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'const' (T_CONST), expecting identifier (T_STRING)' in E:\xampp\htdocs\myii\modules\sandagent\controllers\IndexController.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-17 01:51:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'sandagent/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12wWLCrdUxhUQfRpOhFbv6lVxKutumHA\";}'
+    'PHPSESSID' => 'une6rchk81s6b4qpna7sck8ig0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=571e06d3c3ab06e038a492af0cfaa3bea18426f68101c394162607bdcb69405aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212wWLCrdUxhUQfRpOhFbv6lVxKutumHA%22%3B%7D; PHPSESSID=une6rchk81s6b4qpna7sck8ig0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MongoDB\\Server\\3.0\\bin;C:\\Program Files (x86)\\scala\\bin;C:\\Program Files\\Java\\jdk1.8.0_45\\bin;C:\\Program Files (x86)\\IDM Computer Solutions\\UltraCompare;C:\\Python27;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\phantomjs-1.9.8-windows;C:\\Program Files (x86)\\nodejs\\;E:\\xampp\\php\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Users\\peter\\AppData\\Roaming\\npm;C:\\Users\\peter\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/myii/web/index.php'
+    'REMOTE_PORT' => '60416'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sandagent/index'
+    'REQUEST_URI' => '/myii/web/index.php?r=sandagent/index'
+    'SCRIPT_NAME' => '/myii/web/index.php'
+    'PHP_SELF' => '/myii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471391491.908
+    'REQUEST_TIME' => 1471391491
+]

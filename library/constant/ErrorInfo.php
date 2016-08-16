@@ -6,7 +6,7 @@
  * Time: 15:33
  */
 
-namespace app\library\const;
+namespace app\library\constant;
 
 
 class ErrorInfo {
