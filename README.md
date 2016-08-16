@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SandConsole
 -----------
 
@@ -112,3 +113,6 @@ include sandconole.conf in nginx.conf. you need to reload or resatart nginx.
             deny all;
         }
     }
+=======
+# myii
+>>>>>>> 0027a6682ac05fbd507dc1d513b29848107e5cb6
