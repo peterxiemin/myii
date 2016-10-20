@@ -1,9 +1,5 @@
 <<<<<<< HEAD
-SandConsole
 -----------
-
-综合收银台沙盒控制台
-
 DIRECTORY STRUCTURE
 -------------------
 
